@@ -1,0 +1,77 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F8F9FA;
+}
+
+/* Header */
+header {
+    background-color: #1565C0;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Treatments Section */
+.treatments-intro {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: white;
+}
+
+.treatments-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+}
+
+.treatment-box {
+    width: 320px;
+    background: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.treatment-box h3 {
+    color: #1565C0;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #1565C0;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .treatments-list {
+        flex-direction: column;
+        align-items: center;
+    }
+}

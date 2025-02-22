@@ -1,0 +1,126 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FAFAFA;
+}
+
+/* Header */
+header {
+    background-color: #880E4F;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Resources Section */
+.resources-section {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.resources-section h2 {
+    text-align: center;
+    color: #AD1457;
+}
+
+/* Resource Tabs */
+.resource-tabs {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.tab-btn {
+    padding: 10px 20px;
+    border: none;
+    background: #AD1457;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 5px;
+    transition: background 0.3s;
+}
+
+.tab-btn:hover, .tab-btn.active {
+    background: #880E4F;
+}
+
+/* Resource Content */
+.resource-content {
+    display: none;
+    padding: 20px;
+    animation: fadeIn 0.5s ease-in-out;
+    text-align: center;
+}
+
+.resource-content.active {
+    display: block;
+}
+
+.resource-content h3 {
+    color: #880E4F;
+}
+
+.resource-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.resource-content ul li {
+    background: #F8BBD0;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+.resource-content ul li a {
+    color: #880E4F;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Images */
+.resource-content img {
+    width: 80%;
+    max-width: 400px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Footer */
+footer {
+    background-color: #880E4F;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
